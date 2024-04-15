@@ -38,7 +38,7 @@ workflowSchedule:
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "0 22 * * *"
+  uptime: "1 0 * * *"
 
 i18n:
   pastScheduledMaintenance: Past Incidents
