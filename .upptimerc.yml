@@ -2,15 +2,6 @@ owner: MadeMediaCorp
 repo: system-status
 
 sites:
-  - name: Mademedia Website
-    url: https://mademedia.tech
-  - name: Onboard Website
-    url: https://onboardapp.co
-  - name: Self-Complete
-    url: https://complete.onboardapp.co/en.html
-    expectedStatusCodes: 
-      - 404
-    __dangerous__body_down_if_text_missing: "Unfortunately this link has expired"
   - name: App
     url: $RELEASES_JSON
     __dangerous__body_down_if_text_missing: "releases"
@@ -18,14 +9,24 @@ sites:
     url: $PORTAL_JSON
   - name: API
     url: $API_JSON
+  - name: Self-Complete
+    url: https://complete.onboardapp.co/en.html
+    expectedStatusCodes: 
+      - 404
+    __dangerous__body_down_if_text_missing: "Unfortunately this link has expired"
+  - name: Mademedia Website
+    url: https://mademedia.tech
+  - name: Onboard Website
+    url: https://onboardapp.co
 
 status-website:
-  theme: dark
+  themeUrl: https://status.onboardapp.co/mm-theme.css
   cname: status.onboardapp.co
   favicon: https://mademedia.tech/img/favicon.png
   logoUrl: https://mademedia.tech/img/favicon144.png
   name: Made Media
-  introTitle: "Find out about upcoming maintenence work, as well as any issues affecting our services."
+  introTitle: "**Made Media** status page"
+  introDescription: "Find out about upcoming maintenence work, as well as any known issues affecting our services."
   navbar:
     - title: Contact
       href: https://mademedia.tech/contact
@@ -37,8 +38,13 @@ workflowSchedule:
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "*/30 * * * *"
+  uptime: "0 22 * * *"
 
 i18n:
-  pastScheduledMaintenance: Past Manually Created Incidents
-  scheduledMaintenance: Manually Created Incidents
+  pastScheduledMaintenance: Past Incidents
+  scheduledMaintenance: Acknowledged Incidents
+  incidentCompleted: Resolved
+  incidentScheduled: Ongoing
+  footer: Powered by [Upptime](https://upptime.js.org)
+  incidentViewOnGitHub: ''
+  incidentCommentSummary: Posted at $DATE
