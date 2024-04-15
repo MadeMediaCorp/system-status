@@ -1,26 +1,34 @@
-# Change these first
-owner: MadeMediaCorp # Your GitHub organization or username, where this repository lives
-repo: system-status # The name of this repository
+owner: MadeMediaCorp
+repo: system-status
 
 sites:
-  - name: Corpo Site
+  - name: Mademedia Website
     url: https://mademedia.tech
+  - name: Onboard Website
+    url: https://onboardapp.co
+  - name: Self-Complete
+    url: https://complete.onboardapp.co/en.html
+    expectedStatusCodes: 
+      - 404
+    __dangerous__body_down_if_text_missing: "Unfortunately this link has expired"
+  - name: App
+    url: $RELEASES_JSON
+    __dangerous__body_down_if_text_missing: "releases"
+  - name: Portal
+    url: $PORTAL_JSON
+  - name: API
+    url: $API_JSON
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  publish: true
+  theme: dark
   cname: status.onboardapp.co
+  favicon: https://mademedia.tech/img/favicon.png
   logoUrl: https://mademedia.tech/img/favicon144.png
   name: Made Media
-  introTitle: "**Made Media** provides a powerful suite of tools & software"
-  introMessage: Find out about upcoming maintenence work, as well as any issues affecting our services.
+  introTitle: "Find out about upcoming maintenence work, as well as any issues affecting our services."
   navbar:
-    - title: Status
-      href: /
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: Contact
+      href: https://mademedia.tech/contact
 
 workflowSchedule:
   graphs: "0 0 * * *"
@@ -29,4 +37,8 @@ workflowSchedule:
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "0 * * * *"
+  uptime: "*/30 * * * *"
+
+i18n:
+  pastScheduledMaintenance: Past Manually Created Incidents
+  scheduledMaintenance: Manually Created Incidents
