@@ -1,20 +1,20 @@
 [
   {
-    "name": "Corporate Site",
+    "name": "Corpo Site",
     "url": "https://mademedia.tech",
     "icon": "https://icons.duckduckgo.com/ip3/mademedia.tech.ico",
-    "slug": "corporate-site",
+    "slug": "corpo-site",
     "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 70,
-    "timeDay": 70,
-    "timeWeek": 70,
-    "timeMonth": 70,
-    "timeYear": 70,
+    "time": 39,
+    "timeDay": 39,
+    "timeWeek": 39,
+    "timeMonth": 39,
+    "timeYear": 39,
     "dailyMinutesDown": {}
   }
 ]
