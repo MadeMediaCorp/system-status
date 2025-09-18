@@ -11,8 +11,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 130,
-    "timeDay": 138,
-    "timeWeek": 127,
+    "timeDay": 81,
+    "timeWeek": 118,
     "timeMonth": 135,
     "timeYear": 138,
     "dailyMinutesDown": {}
@@ -29,9 +29,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 194,
-    "timeDay": 210,
-    "timeWeek": 159,
-    "timeMonth": 161,
+    "timeDay": 106,
+    "timeWeek": 150,
+    "timeMonth": 158,
     "timeYear": 199,
     "dailyMinutesDown": {
       "2024-10-24": 58
@@ -49,9 +49,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 184,
-    "timeDay": 208,
-    "timeWeek": 179,
-    "timeMonth": 187,
+    "timeDay": 224,
+    "timeWeek": 186,
+    "timeMonth": 192,
     "timeYear": 192,
     "dailyMinutesDown": {}
   },
@@ -67,13 +67,11 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 438,
-    "timeDay": 251,
-    "timeWeek": 370,
-    "timeMonth": 385,
-    "timeYear": 453,
-    "dailyMinutesDown": {
-      "2024-09-18": 122
-    }
+    "timeDay": 224,
+    "timeWeek": 361,
+    "timeMonth": 378,
+    "timeYear": 452,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Mademedia Website",
@@ -87,9 +85,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 124,
-    "timeDay": 157,
-    "timeWeek": 127,
-    "timeMonth": 135,
+    "timeDay": 205,
+    "timeWeek": 137,
+    "timeMonth": 140,
     "timeYear": 130,
     "dailyMinutesDown": {}
   },
@@ -105,9 +103,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 110,
-    "timeDay": 116,
-    "timeWeek": 140,
-    "timeMonth": 123,
+    "timeDay": 84,
+    "timeWeek": 130,
+    "timeMonth": 122,
     "timeYear": 116,
     "dailyMinutesDown": {}
   }
