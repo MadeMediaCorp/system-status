@@ -1,7 +1,7 @@
 url: $RELEASES_JSON
-status: down
-code: 500
-responseTime: 215
-lastUpdated: 2026-08-29T09:07:53.724Z
+status: up
+code: 200
+responseTime: 149
+lastUpdated: 2026-08-29T10:06:08.836Z
 startTime: 2024-04-15T18:14:24.392Z
 generator: Upptime <https://github.com/upptime/upptime>
