@@ -4,19 +4,19 @@
     "url": "$RELEASES_JSON",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "app",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptimeDay": "95.95%",
+    "uptimeWeek": "99.42%",
+    "uptimeMonth": "99.87%",
+    "uptimeYear": "99.99%",
     "time": 236,
-    "timeDay": 195,
-    "timeWeek": 210,
-    "timeMonth": 267,
-    "timeYear": 266,
+    "timeDay": 179,
+    "timeWeek": 203,
+    "timeMonth": 263,
+    "timeYear": 265,
     "dailyMinutesDown": {
-      "2026-08-29": 1
+      "2026-08-29": 58
     }
   },
   {
@@ -24,19 +24,19 @@
     "url": "$PORTAL_JSON",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portal",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 215,
-    "timeDay": 88,
-    "timeWeek": 148,
-    "timeMonth": 220,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "95.97%",
+    "uptimeWeek": "99.42%",
+    "uptimeMonth": "99.87%",
+    "uptimeYear": "99.99%",
+    "time": 214,
+    "timeDay": 95,
+    "timeWeek": 144,
+    "timeMonth": 217,
     "timeYear": 222,
     "dailyMinutesDown": {
-      "2026-08-29": 0
+      "2026-08-29": 58
     }
   },
   {
@@ -62,19 +62,19 @@
     "url": "https://complete.onboardapp.co/en.html",
     "icon": "https://icons.duckduckgo.com/ip3/complete.onboardapp.co.ico",
     "slug": "self-complete",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptimeDay": "95.98%",
+    "uptimeWeek": "99.43%",
+    "uptimeMonth": "99.87%",
+    "uptimeYear": "99.99%",
     "time": 337,
-    "timeDay": 255,
-    "timeWeek": 380,
-    "timeMonth": 350,
+    "timeDay": 280,
+    "timeWeek": 374,
+    "timeMonth": 349,
     "timeYear": 318,
     "dailyMinutesDown": {
-      "2026-08-29": 0
+      "2026-08-29": 58
     }
   },
   {
